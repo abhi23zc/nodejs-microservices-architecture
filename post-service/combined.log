@@ -178,3 +178,7 @@
 {"level":"info","message":"Request Body: {\"content\":\"Hey new post\",\"title\":\"POST\"}","service":"post-service","timestamp":"2025-11-16T19:31:04.092Z"}
 {"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:31:49.987Z"}
 {"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:31:50.107Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:32:44.322Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:32:44.404Z"}
+{"level":"info","message":"ReceivedGET request to /api/post/get-posts","service":"post-service","timestamp":"2025-11-16T19:32:54.370Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hey new post\",\"title\":\"POST\"}","service":"post-service","timestamp":"2025-11-16T19:32:54.372Z"}
