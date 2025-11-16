@@ -259,3 +259,13 @@
 {"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2025-11-16T13:26:28.470Z"}
 {"level":"info","message":"Identity service running on port 8001","service":"identity-service","timestamp":"2025-11-16T13:27:07.400Z"}
 {"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2025-11-16T13:27:07.495Z"}
+{"level":"info","message":"Identity service running on port 8001","service":"identity-service","timestamp":"2025-11-16T13:27:30.001Z"}
+{"level":"info","message":"Connected to MongoDB","service":"identity-service","timestamp":"2025-11-16T13:27:30.071Z"}
+{"level":"info","message":"Received POST request to  /api/auth/login","service":"identity-service","timestamp":"2025-11-16T15:08:33.649Z"}
+{"level":"info","message":"Request body: {\"email\":\"admin@gmail.com\",\"password\":\"000000\"}","service":"identity-service","timestamp":"2025-11-16T15:08:33.657Z"}
+{"level":"info","message":"Logging in user...","service":"identity-service","timestamp":"2025-11-16T15:08:33.681Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-11-16T15:08:34.016Z"}
+{"level":"info","message":"Received POST request to  /api/auth/login","service":"identity-service","timestamp":"2025-11-16T15:22:49.891Z"}
+{"level":"info","message":"Request body: {\"email\":\"admin@gmail.com\",\"password\":\"000000\"}","service":"identity-service","timestamp":"2025-11-16T15:22:49.892Z"}
+{"level":"info","message":"Logging in user...","service":"identity-service","timestamp":"2025-11-16T15:22:49.900Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-11-16T15:22:50.153Z"}

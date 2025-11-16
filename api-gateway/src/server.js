@@ -11,6 +11,7 @@ const {RedisStore} = require("rate-limit-redis")
 const logger = require('./utils/logger');
 const proxy = require('express-http-proxy');
 const errorHandler = require('./middleware/errorHandler');
+const validateToken = require('./middleware/auth.middleware');
 
 app.use(cors());
 app.use(helmet());
@@ -40,16 +41,48 @@ app.use((req, res, next) => {
     next();
 })
 
-app.use('/api/auth', proxy("http://localhost:8001", {
+app.use('/v1/auth', proxy(process.env.IDENTITY_SERVICE_URL, {
+    parseReqBody: false, 
     proxyReqPathResolver: (req) => {
         return `/api/auth${req.url}`;
+    },
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+       
+        proxyReqOpts.headers['content-type'] = 'application/json';
+        proxyReqOpts.headers['x-user-id'] = srcReq.user.userId;
+        return proxyReqOpts;
+        
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+        logger.info(`Response from Identity Service: ${proxyRes.statusCode} - ${proxyResData}`);
+        return proxyResData;
     }
 }))
+
+app.use("/v1/post", validateToken,proxy(process.env.POST_SERVICE_URL, {
+    proxyReqPathResolver: (req) => {
+        return `/api/post${req.url}`;
+    },
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+       
+        proxyReqOpts.headers['Content-Type'] = 'application/json';
+       
+        proxyReqOpts.headers['x-user-id'] = srcReq.user.userId;
+        
+        return proxyReqOpts;
+        
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+        logger.info(`Response from Post Service: ${proxyRes.statusCode} - ${proxyResData}`);
+        return proxyResData;
+    }
+}));
 
 app.use(errorHandler)
 
 app.listen(PORT, () => {
     logger.info(`API Gateway running on port ${PORT}`);
     logger.info(`Identity Service URL: ${process.env.IDENTITY_SERVICE_URL}`);
+    logger.info(`Post Service URL: ${process.env.POST_SERVICE_URL}`);
     logger.info(`Redis URL: ${process.env.REDIS_URL}`);
 });

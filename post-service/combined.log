@@ -1,0 +1,180 @@
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T14:06:32.182Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T14:06:32.276Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T14:06:39.471Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T14:06:39.572Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T15:09:09.400Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T15:09:09.524Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T15:26:35.180Z"}
+{"level":"info","message":"Request Body: {}","service":"post-service","timestamp":"2025-11-16T15:26:35.181Z"}
+{"level":"warn","message":"Unauthorized access attempt","service":"post-service","timestamp":"2025-11-16T15:26:35.183Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T15:43:50.198Z"}
+{"level":"info","message":"Request Body: {}","service":"post-service","timestamp":"2025-11-16T15:43:50.199Z"}
+{"level":"warn","message":"Unauthorized access attempt","service":"post-service","timestamp":"2025-11-16T15:43:50.202Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T15:45:21.000Z"}
+{"level":"info","message":"Request Body: {}","service":"post-service","timestamp":"2025-11-16T15:45:21.001Z"}
+{"level":"warn","message":"Unauthorized access attempt","service":"post-service","timestamp":"2025-11-16T15:45:21.004Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T15:46:25.091Z"}
+{"level":"info","message":"Request Body: {}","service":"post-service","timestamp":"2025-11-16T15:46:25.093Z"}
+{"level":"warn","message":"Unauthorized access attempt","service":"post-service","timestamp":"2025-11-16T15:46:25.094Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T15:47:51.540Z"}
+{"level":"info","message":"Request Body: {}","service":"post-service","timestamp":"2025-11-16T15:47:51.541Z"}
+{"level":"warn","message":"Unauthorized access attempt","service":"post-service","timestamp":"2025-11-16T15:47:51.545Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T15:49:39.088Z"}
+{"level":"info","message":"Request Body: {}","service":"post-service","timestamp":"2025-11-16T15:49:39.089Z"}
+{"level":"warn","message":"Unauthorized access attempt","service":"post-service","timestamp":"2025-11-16T15:49:39.090Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T16:05:16.083Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T16:05:16.166Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T16:05:18.832Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T16:05:18.901Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T16:05:25.747Z"}
+{"level":"info","message":"Request Body: {}","service":"post-service","timestamp":"2025-11-16T16:05:25.749Z"}
+{"level":"warn","message":"Unauthorized access attempt","service":"post-service","timestamp":"2025-11-16T16:05:25.752Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T16:08:22.147Z"}
+{"level":"info","message":"Request Body: {}","service":"post-service","timestamp":"2025-11-16T16:08:22.149Z"}
+{"level":"warn","message":"Unauthorized access attempt","service":"post-service","timestamp":"2025-11-16T16:08:22.152Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T16:14:10.446Z"}
+{"level":"info","message":"Request Body: {}","service":"post-service","timestamp":"2025-11-16T16:14:10.452Z"}
+{"level":"warn","message":"Unauthorized access attempt","service":"post-service","timestamp":"2025-11-16T16:14:10.456Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T16:14:41.870Z"}
+{"level":"info","message":"Request Body: {}","service":"post-service","timestamp":"2025-11-16T16:14:41.871Z"}
+{"level":"warn","message":"Unauthorized access attempt","service":"post-service","timestamp":"2025-11-16T16:14:41.873Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T18:59:30.655Z"}
+{"level":"info","message":"Request Body: {}","service":"post-service","timestamp":"2025-11-16T18:59:30.663Z"}
+{"level":"warn","message":"Unauthorized access attempt","service":"post-service","timestamp":"2025-11-16T18:59:30.672Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T18:59:56.981Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T18:59:57.082Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T19:00:26.601Z"}
+{"level":"info","message":"Request Body: {}","service":"post-service","timestamp":"2025-11-16T19:00:26.602Z"}
+{"level":"warn","message":"Unauthorized access attempt","service":"post-service","timestamp":"2025-11-16T19:00:26.603Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T19:00:54.372Z"}
+{"level":"info","message":"Request Body: {\"text\":\"hello\"}","service":"post-service","timestamp":"2025-11-16T19:00:54.373Z"}
+{"level":"warn","message":"Unauthorized access attempt","service":"post-service","timestamp":"2025-11-16T19:00:54.375Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:01:19.168Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:01:19.237Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T19:01:21.895Z"}
+{"level":"info","message":"Request Body: {\"text\":\"hello\"}","service":"post-service","timestamp":"2025-11-16T19:01:21.897Z"}
+{"level":"warn","message":"Unauthorized access attempt","service":"post-service","timestamp":"2025-11-16T19:01:21.903Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:02:10.510Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:02:10.687Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T19:02:17.444Z"}
+{"level":"info","message":"Request Body: {\"text\":\"hello\"}","service":"post-service","timestamp":"2025-11-16T19:02:17.446Z"}
+{"level":"warn","message":"Unauthorized access attempt","service":"post-service","timestamp":"2025-11-16T19:02:17.459Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:03:57.428Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:03:57.530Z"}
+{"level":"error","message":"request aborted","service":"post-service","stack":"BadRequestError: request aborted\n    at IncomingMessage.onAborted (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\raw-body\\index.js:245:10)\n    at IncomingMessage.emit (node:events:518:28)\n    at IncomingMessage._destroy (node:_http_incoming:221:10)\n    at _destroy (node:internal/streams/destroy:122:10)\n    at IncomingMessage.destroy (node:internal/streams/destroy:84:5)\n    at abortIncoming (node:_http_server:809:9)\n    at socketOnClose (node:_http_server:803:3)\n    at Socket.emit (node:events:530:35)\n    at TCP.<anonymous> (node:net:351:12)","timestamp":"2025-11-16T19:04:47.258Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:05:05.942Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:05:06.026Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:05:12.526Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:05:12.625Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T19:05:14.361Z"}
+{"level":"info","message":"Request Body: {\"text\":\"hello\"}","service":"post-service","timestamp":"2025-11-16T19:05:14.363Z"}
+{"level":"warn","message":"Unauthorized access attempt","service":"post-service","timestamp":"2025-11-16T19:05:14.366Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T19:05:56.744Z"}
+{"level":"info","message":"Request Body: {\"text\":\"hello\"}","service":"post-service","timestamp":"2025-11-16T19:05:56.745Z"}
+{"level":"warn","message":"Unauthorized access attempt","service":"post-service","timestamp":"2025-11-16T19:05:56.746Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T19:06:37.815Z"}
+{"level":"info","message":"Request Body: {\"text\":\"hello\"}","service":"post-service","timestamp":"2025-11-16T19:06:37.816Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-11-16T19:06:37.819Z"}
+{"level":"error","message":"error is not defined","service":"post-service","stack":"ReferenceError: error is not defined\n    at createPost (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\src\\controllers\\post.controller.js:40:41)\n    at Layer.handleRequest (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\index.js:291:5)\n    at authenticateRequest (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\src\\middleware\\auth.middleware.js:11:5)","timestamp":"2025-11-16T19:06:37.823Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:06:55.632Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:06:55.686Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T19:07:07.583Z"}
+{"level":"info","message":"Request Body: {\"text\":\"hello\"}","service":"post-service","timestamp":"2025-11-16T19:07:07.585Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-11-16T19:07:07.592Z"}
+{"level":"error","message":"Error creating post Post is not defined","service":"post-service","stack":"ReferenceError: Post is not defined\n    at createPost (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\src\\controllers\\post.controller.js:18:30)\n    at Layer.handleRequest (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\index.js:291:5)\n    at authenticateRequest (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\src\\middleware\\auth.middleware.js:11:5)","timestamp":"2025-11-16T19:07:07.596Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:09:29.279Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:09:29.369Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:09:45.584Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:09:45.940Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:11:05.125Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:11:05.228Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:11:19.437Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:11:19.609Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T19:11:22.976Z"}
+{"level":"info","message":"Request Body: {}","service":"post-service","timestamp":"2025-11-16T19:11:22.977Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-11-16T19:11:22.985Z"}
+{"level":"error","message":"Error creating post validateCreatePost is not defined","service":"post-service","stack":"ReferenceError: validateCreatePost is not defined\n    at createPost (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\src\\controllers\\post.controller.js:10:23)\n    at Layer.handleRequest (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\index.js:291:5)\n    at authenticateRequest (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\src\\middleware\\auth.middleware.js:11:5)","timestamp":"2025-11-16T19:11:22.987Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T19:11:27.810Z"}
+{"level":"info","message":"Request Body: {}","service":"post-service","timestamp":"2025-11-16T19:11:27.811Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-11-16T19:11:27.849Z"}
+{"level":"error","message":"Error creating post validateCreatePost is not defined","service":"post-service","stack":"ReferenceError: validateCreatePost is not defined\n    at createPost (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\src\\controllers\\post.controller.js:10:23)\n    at Layer.handleRequest (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\router\\index.js:291:5)\n    at authenticateRequest (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\src\\middleware\\auth.middleware.js:11:5)","timestamp":"2025-11-16T19:11:27.872Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:11:47.604Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:11:47.695Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:12:28.842Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:12:28.928Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T19:12:34.785Z"}
+{"level":"info","message":"Request Body: {}","service":"post-service","timestamp":"2025-11-16T19:12:34.787Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-11-16T19:12:34.790Z"}
+{"0":"\"","1":"c","10":"i","11":"s","12":" ","13":"r","14":"e","15":"q","16":"u","17":"i","18":"r","19":"e","2":"o","20":"d","3":"n","4":"t","5":"e","6":"n","7":"t","8":"\"","9":" ","level":"warn","message":"Validation error","service":"post-service","timestamp":"2025-11-16T19:12:34.813Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T19:13:02.045Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hey new post\",\"title\":\"POST\"}","service":"post-service","timestamp":"2025-11-16T19:13:02.047Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-11-16T19:13:02.224Z"}
+{"0":"\"","1":"t","10":" ","11":"n","12":"o","13":"t","14":" ","15":"a","16":"l","17":"l","18":"o","19":"w","2":"i","20":"e","21":"d","3":"t","4":"l","5":"e","6":"\"","7":" ","8":"i","9":"s","level":"warn","message":"Validation error","service":"post-service","timestamp":"2025-11-16T19:13:02.496Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:13:30.246Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:13:30.399Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T19:13:33.248Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hey new post\",\"title\":\"POST\"}","service":"post-service","timestamp":"2025-11-16T19:13:33.249Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-11-16T19:13:33.259Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"updatedAt":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"691a225d0728e20dce2526c5","content":"Hey new post","createdAt":"2025-11-16T19:13:33.314Z","mediaIds":[],"updatedAt":"2025-11-16T19:13:33.314Z","user":"6919cf6607d6b9ae881d1a58"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"691a225d0728e20dce2526c5","content":"Hey new post","createdAt":"2025-11-16T19:13:33.314Z","mediaIds":[],"updatedAt":"2025-11-16T19:13:33.314Z","user":"6919cf6607d6b9ae881d1a58"},"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-11-16T19:13:33.371Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:15:37.701Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:15:37.890Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:17:15.505Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:17:15.661Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:17:42.385Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:17:42.596Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:18:12.184Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:18:12.256Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:18:47.525Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:18:47.655Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:19:08.415Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:19:08.479Z"}
+{"level":"info","message":"ReceivedGET request to /api/post/get-posts","service":"post-service","timestamp":"2025-11-16T19:19:20.007Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hey new post\",\"title\":\"POST\"}","service":"post-service","timestamp":"2025-11-16T19:19:20.009Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:23:54.531Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:23:54.647Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:24:55.991Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:24:56.096Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:28:48.475Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:28:48.791Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:29:13.199Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:29:13.281Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T19:29:18.857Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hey new post2\",\"title\":\"POST 2\"}","service":"post-service","timestamp":"2025-11-16T19:29:18.858Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-11-16T19:29:18.863Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"updatedAt":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"691a260e4bdbd4ee2eab7136","content":"Hey new post2","createdAt":"2025-11-16T19:29:18.883Z","mediaIds":[],"updatedAt":"2025-11-16T19:29:18.883Z","user":"6919cf6607d6b9ae881d1a58"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"691a260e4bdbd4ee2eab7136","content":"Hey new post2","createdAt":"2025-11-16T19:29:18.883Z","mediaIds":[],"updatedAt":"2025-11-16T19:29:18.883Z","user":"6919cf6607d6b9ae881d1a58"},"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-11-16T19:29:18.915Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T19:29:22.424Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hey new post3\",\"title\":\"POST 3\"}","service":"post-service","timestamp":"2025-11-16T19:29:22.425Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-11-16T19:29:22.430Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"updatedAt":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"691a26124bdbd4ee2eab7138","content":"Hey new post3","createdAt":"2025-11-16T19:29:22.440Z","mediaIds":[],"updatedAt":"2025-11-16T19:29:22.440Z","user":"6919cf6607d6b9ae881d1a58"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"691a26124bdbd4ee2eab7138","content":"Hey new post3","createdAt":"2025-11-16T19:29:22.440Z","mediaIds":[],"updatedAt":"2025-11-16T19:29:22.440Z","user":"6919cf6607d6b9ae881d1a58"},"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-11-16T19:29:22.451Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-16T19:29:26.325Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hey new post4\",\"title\":\"POST 4\"}","service":"post-service","timestamp":"2025-11-16T19:29:26.326Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-11-16T19:29:26.331Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"updatedAt":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"691a26164bdbd4ee2eab713a","content":"Hey new post4","createdAt":"2025-11-16T19:29:26.341Z","mediaIds":[],"updatedAt":"2025-11-16T19:29:26.341Z","user":"6919cf6607d6b9ae881d1a58"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"691a26164bdbd4ee2eab713a","content":"Hey new post4","createdAt":"2025-11-16T19:29:26.341Z","mediaIds":[],"updatedAt":"2025-11-16T19:29:26.341Z","user":"6919cf6607d6b9ae881d1a58"},"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-11-16T19:29:26.353Z"}
+{"level":"info","message":"ReceivedGET request to /api/post/get-posts","service":"post-service","timestamp":"2025-11-16T19:29:29.769Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hey new post\",\"title\":\"POST\"}","service":"post-service","timestamp":"2025-11-16T19:29:29.771Z"}
+{"level":"info","message":"ReceivedGET request to /api/post/get-posts","service":"post-service","timestamp":"2025-11-16T19:29:34.537Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hey new post\",\"title\":\"POST\"}","service":"post-service","timestamp":"2025-11-16T19:29:34.538Z"}
+{"level":"info","message":"ReceivedGET request to /api/post/get-posts","service":"post-service","timestamp":"2025-11-16T19:29:35.727Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hey new post\",\"title\":\"POST\"}","service":"post-service","timestamp":"2025-11-16T19:29:35.730Z"}
+{"level":"info","message":"ReceivedGET request to /api/post/get-posts","service":"post-service","timestamp":"2025-11-16T19:29:36.886Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hey new post\",\"title\":\"POST\"}","service":"post-service","timestamp":"2025-11-16T19:29:36.886Z"}
+{"level":"info","message":"ReceivedGET request to /api/post/get-posts","service":"post-service","timestamp":"2025-11-16T19:29:38.143Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hey new post\",\"title\":\"POST\"}","service":"post-service","timestamp":"2025-11-16T19:29:38.145Z"}
+{"level":"info","message":"ReceivedGET request to /api/post/get-post/691a26164bdbd4ee2eab713a","service":"post-service","timestamp":"2025-11-16T19:30:13.804Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hey new post\",\"title\":\"POST\"}","service":"post-service","timestamp":"2025-11-16T19:30:13.805Z"}
+{"level":"info","message":"ReceivedGET request to /api/post/delete-post/691a26164bdbd4ee2eab713a","service":"post-service","timestamp":"2025-11-16T19:30:41.307Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hey new post\",\"title\":\"POST\"}","service":"post-service","timestamp":"2025-11-16T19:30:41.307Z"}
+{"level":"info","message":"ReceivedDELETE request to /api/post/delete-post/691a26164bdbd4ee2eab713a","service":"post-service","timestamp":"2025-11-16T19:30:46.050Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hey new post\",\"title\":\"POST\"}","service":"post-service","timestamp":"2025-11-16T19:30:46.050Z"}
+{"level":"info","message":"ReceivedGET request to /api/post/get-post/691a26164bdbd4ee2eab713a","service":"post-service","timestamp":"2025-11-16T19:30:53.398Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hey new post\",\"title\":\"POST\"}","service":"post-service","timestamp":"2025-11-16T19:30:53.400Z"}
+{"level":"info","message":"ReceivedGET request to /api/post/get-posts","service":"post-service","timestamp":"2025-11-16T19:30:58.324Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hey new post\",\"title\":\"POST\"}","service":"post-service","timestamp":"2025-11-16T19:30:58.325Z"}
+{"level":"info","message":"ReceivedGET request to /api/post/get-posts","service":"post-service","timestamp":"2025-11-16T19:31:00.691Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hey new post\",\"title\":\"POST\"}","service":"post-service","timestamp":"2025-11-16T19:31:00.691Z"}
+{"level":"info","message":"ReceivedGET request to /api/post/get-posts","service":"post-service","timestamp":"2025-11-16T19:31:02.388Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hey new post\",\"title\":\"POST\"}","service":"post-service","timestamp":"2025-11-16T19:31:02.389Z"}
+{"level":"info","message":"ReceivedGET request to /api/post/get-posts","service":"post-service","timestamp":"2025-11-16T19:31:04.091Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hey new post\",\"title\":\"POST\"}","service":"post-service","timestamp":"2025-11-16T19:31:04.092Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-16T19:31:49.987Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:31:50.107Z"}
