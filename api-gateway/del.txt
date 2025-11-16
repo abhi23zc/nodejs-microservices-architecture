@@ -1,0 +1,60 @@
+app.use('/v1/auth', proxy(process.env.IDENTITY_SERVICE_URL, {
+    parseReqBody: false,  // <-- MUST BE FALSE
+
+    proxyReqPathResolver: (req) => {
+        return `/api/auth${req.url}`;
+    },
+
+    proxyReqBodyDecorator: (bodyContent, srcReq) => {
+        if (srcReq.body && Object.keys(srcReq.body).length > 0) {
+            const json = JSON.stringify(srcReq.body);
+            return Buffer.from(json); // MUST BE BUFFER
+        }
+        return bodyContent;
+    },
+
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+        if (srcReq.body && Object.keys(srcReq.body).length > 0) {
+            const json = JSON.stringify(srcReq.body);
+            proxyReqOpts.headers['Content-Type'] = 'application/json';
+            proxyReqOpts.headers['Content-Length'] = Buffer.byteLength(json);
+        }
+        return proxyReqOpts;
+    },
+
+    proxyErrorHandler: (err, res, next) => {
+        res.status(500).json({ message: 'Proxy Error', error: err.message });
+    }
+}));
+
+
+// app.use('/v1/auth', proxy(process.env.IDENTITY_SERVICE_URL, {
+//     proxyReqPathResolver: (req) => {
+//         const path = `/api/auth${req.url}`;
+//         logger.info(`Rewriting path: /v1/auth${req.url} → ${path}`);
+//         return path;
+//     },
+//     proxyReqBodyDecorator: (bodyContent, srcReq) => {
+//         if (srcReq.body && Object.keys(srcReq.body).length > 0) {
+//             const bodyData = JSON.stringify(srcReq.body);
+//             logger.info(`Forwarding body: ${bodyData}`);
+//             return bodyData;
+//         }
+//         return bodyContent;
+//     },
+//     proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+//         proxyReqOpts.headers['Content-Type'] = 'application/json';
+//         return proxyReqOpts;
+//     },
+//     proxyErrorHandler: (err, res, next) => {
+//         logger.error(`Proxy error: ${err.message}`, err);
+//         if (!res.headersSent) {
+//             res.status(500).json({ message: 'Internal server error', error: err.message });
+//         }
+//     },
+//     userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+//         logger.info(`Identity Response Status: ${proxyRes.statusCode}`);
+//         return proxyResData;
+//     },
+//     parseReqBody: false
+// }));
