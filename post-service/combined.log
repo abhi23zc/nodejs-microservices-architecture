@@ -182,3 +182,38 @@
 {"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-16T19:32:44.404Z"}
 {"level":"info","message":"ReceivedGET request to /api/post/get-posts","service":"post-service","timestamp":"2025-11-16T19:32:54.370Z"}
 {"level":"info","message":"Request Body: {\"content\":\"Hey new post\",\"title\":\"POST\"}","service":"post-service","timestamp":"2025-11-16T19:32:54.372Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-20T04:57:08.805Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-20T04:57:08.873Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-20T05:21:18.787Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-20T05:21:18.903Z"}
+{"level":"info","message":"ReceivedPOST request to /api/post/create-post","service":"post-service","timestamp":"2025-11-20T05:30:12.617Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hey this is new content\",\"mediaIds\":[\"imgae.jpg\",\"image1.jpg\"]}","service":"post-service","timestamp":"2025-11-20T05:30:12.618Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-11-20T05:30:12.620Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"updatedAt":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"691ea764f2eb7ec3cf4ec182","content":"Hey this is new content","createdAt":"2025-11-20T05:30:12.638Z","mediaIds":["imgae.jpg","image1.jpg"],"updatedAt":"2025-11-20T05:30:12.638Z","user":"6919cf6607d6b9ae881d1a58"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"691ea764f2eb7ec3cf4ec182","content":"Hey this is new content","createdAt":"2025-11-20T05:30:12.638Z","mediaIds":["imgae.jpg","image1.jpg"],"updatedAt":"2025-11-20T05:30:12.638Z","user":"6919cf6607d6b9ae881d1a58"},"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-11-20T05:30:12.667Z"}
+{"level":"info","message":"ReceivedGET request to /api/post/get-posts","service":"post-service","timestamp":"2025-11-20T05:30:47.708Z"}
+{"level":"info","message":"Request Body: {}","service":"post-service","timestamp":"2025-11-20T05:30:47.709Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-20T05:51:27.697Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-20T05:51:27.767Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-20T09:11:07.413Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-20T09:11:07.747Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-20T09:17:52.801Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-20T09:17:52.942Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-20T09:19:22.510Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-20T09:19:22.630Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-20T09:36:40.961Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-20T09:36:41.064Z"}
+{"level":"error","message":"Failed to connect to RabbitMQ Handshake terminated by server: 403 (ACCESS-REFUSED) with message \"ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.\"","service":"post-service","stack":"Error: Handshake terminated by server: 403 (ACCESS-REFUSED) with message \"ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile.\"\n    at afterStartOk (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\amqplib\\lib\\connection.js:169:16)\n    at C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\amqplib\\lib\\connection.js:104:11\n    at Socket.recv (C:\\Users\\ABHI\\Documents\\ABHI\\MicroServices\\post-service\\node_modules\\amqplib\\lib\\connection.js:453:9)\n    at Object.onceWrapper (node:events:632:28)\n    at Socket.emit (node:events:518:28)\n    at emitReadable_ (node:internal/streams/readable:834:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)","timestamp":"2025-11-20T09:36:41.093Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-20T09:38:26.745Z"}
+{"code":"ECONNRESET","errno":-4077,"level":"error","message":"Failed to connect to RabbitMQ read ECONNRESET","service":"post-service","stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)","syscall":"read","timestamp":"2025-11-20T09:38:26.829Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-20T09:38:26.871Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-20T09:38:42.420Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-20T09:38:42.524Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-11-20T09:38:42.585Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-20T10:02:50.234Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-20T10:02:50.615Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-20T10:02:55.069Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-20T10:02:55.182Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-11-20T10:02:55.262Z"}
+{"level":"info","message":"Post service is running on port 8002","service":"post-service","timestamp":"2025-11-20T10:11:39.169Z"}
+{"level":"info","message":"Connected to MongoDB","service":"post-service","timestamp":"2025-11-20T10:11:39.321Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-11-20T10:11:39.441Z"}

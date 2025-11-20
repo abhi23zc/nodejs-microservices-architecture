@@ -7,6 +7,7 @@ const helmet = require("helmet");
 const postRoutes = require("./routes/post.route");
 const errorHandler = require("./middleware/errorHandler");
 const logger = require("./utils/logger");
+const { connectRabbitMQ } = require("./utils/rabbitmq");
 
 const app = express();
 const PORT = process.env.PORT || 8002;
@@ -35,11 +36,21 @@ app.use("/api/post", (req, res, next)=>{
     next();
 }, postRoutes);
 
+app.use(errorHandler);
+
+async function startServer(){
+    try{
+        await connectRabbitMQ();
+    }catch(err){
+        logger.error('Failed to connect to rabbitMQ', err);
+        process.exit(1);
+    }
+}
+startServer();
 
 app.listen(PORT, ()=>{
     logger.info(`Post service is running on port ${PORT}`);
 })
 
-app.use(errorHandler);
 
 

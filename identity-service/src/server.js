@@ -64,7 +64,7 @@ const sensitiveEndpointLimiter = rateLimit({
     }),
 });
 
-app.use("/api/auth/register", sensitiveEndpointLimiter);
+// app.use("/api/auth/register", sensitiveEndpointLimiter);
 
 
 //Routes

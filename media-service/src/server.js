@@ -6,6 +6,8 @@ const errorHandler = require("./middleware/errorHandler");
 const logger = require("./utils/logger");
 const mediaRoutes = require('./routes/media.route');
 const  mongoose  = require("mongoose");
+const { connectRabbitMQ, consumeEvent } = require("./utils/rabbitmq");
+const { handlePostDeleted } = require("./eventHandlers/media.event.handler");
 
 
 mongoose
@@ -29,7 +31,19 @@ app.use((req, res, next) => {
 app.use("/api/media", mediaRoutes);
 
 app.use(errorHandler);
+async function startServer(){
+    try{
+        await connectRabbitMQ();
 
+        //consume all the events
+
+        await consumeEvent('post.deleted', handlePostDeleted)
+    }catch(err){
+        logger.error('Failed to connect to rabbitMQ', err);
+        process.exit(1);
+    }
+}
+startServer();
 app.listen(process.env.PORT, () => {
   logger.info(`Media Service running on port ${process.env.PORT}`);
 });

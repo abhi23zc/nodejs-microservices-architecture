@@ -1,6 +1,7 @@
 
 const Post = require("../models/post.models");
 const logger = require("../utils/logger");
+const { publishEvent } = require("../utils/rabbitmq");
 const { validateCreatePost } = require("../utils/validation");
 
 
@@ -145,12 +146,11 @@ const deletePost = async (req, res) => {
       });
     }
 
-    //publish post delete method ->
-    // await publishEvent("post.deleted", {
-    //   postId: post._id.toString(),
-    //   userId: req.user.userId,
-    //   mediaIds: post.mediaIds,
-    // });
+    await publishEvent("post.deleted", {
+      postId: post._id.toString(),
+      userId: req.user.userId,
+      mediaIds: post.mediaIds,
+    });
 
     await invalidatePostCache(req, req.params.id);
     res.json({

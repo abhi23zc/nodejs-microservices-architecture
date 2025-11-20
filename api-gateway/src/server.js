@@ -42,20 +42,8 @@ app.use((req, res, next) => {
 })
 
 app.use('/v1/auth', proxy(process.env.IDENTITY_SERVICE_URL, {
-    parseReqBody: false, 
     proxyReqPathResolver: (req) => {
         return `/api/auth${req.url}`;
-    },
-    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
-       
-        proxyReqOpts.headers['content-type'] = 'application/json';
-        proxyReqOpts.headers['x-user-id'] = srcReq.user.userId;
-        return proxyReqOpts;
-        
-    },
-    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
-        logger.info(`Response from Identity Service: ${proxyRes.statusCode} - ${proxyResData}`);
-        return proxyResData;
     }
 }))
 
